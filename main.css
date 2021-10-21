@@ -1,0 +1,307 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: darkred;
+}
+
+.banner {
+    height: 300px;
+    width: 100%;
+    background: url('./assets/images/custom/Display1200.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.banner .menu-options {
+    width: 60vw;
+    background-color: white;
+    position: absolute;
+    margin-top: 67px;
+    font-size: 20px;    
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner .menu-options a {
+    color: navy;    
+    margin-left: 100px;
+    font-weight: bold;
+    text-decoration: none;    
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.banner img {
+   background-color: white;
+   border-radius: 50px;
+   padding: 10px;
+   margin-top: 40px;
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 30px;
+}
+
+.header-content h1 {
+    padding-bottom: 30px;   
+    font-size: 40px; 
+    font-weight: normal;
+}
+
+.header-content h2 {
+    padding-bottom: 30px;    
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.body-content {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.body-content .column-content {    
+    width: 33%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 25px;
+    height: 400px;
+}
+
+.body-content .column-content h2 {
+    font-weight: normal;
+    text-decoration: underline;
+ }
+
+ .body-content .column-content:nth-child(1) {
+     background: url('./assets/images/custom/Serve750.jpg');
+     background-size: cover;
+ }
+
+ .body-content .column-content:nth-child(2) h2 {
+    margin-top: 45px;
+}
+
+ .body-content .column-content:nth-child(3) {
+    background: url('./assets/images/custom/Cafe750.jpg');       
+    background-size: cover; 
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 30px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.products-content {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.products-content .column-content {    
+    width: 33%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 25px;
+    height: 400px;
+}
+
+.products-content .column-content {
+    color: darkred;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+ }
+
+ .products-content .column-content p {
+    background: white;
+ }
+
+ .products-content .column-content:nth-child(1) {
+     background: url('./assets/images/small/specialOccasion300.jpg');
+     background-size: cover;
+ }
+
+ .products-content .column-content:nth-child(2) {
+    background: url('./assets/images/small/orangeCake300.jpg');
+     background-size: cover;
+}
+
+ .products-content .column-content:nth-child(3) {
+    background: url('./assets/images/small/cheeseCake300.jpg');       
+    background-size: cover; 
+}
+
+.products-second-content {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.products-second-content .column-content {    
+    width: 33%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 25px;
+    height: 400px;
+}
+
+.products-second-content .column-content {
+    color: darkred;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    background: white;
+ }
+
+ .products-second-content .column-content p {
+    background: white;
+ }
+
+ .products-second-content .column-content:nth-child(1) {
+     background: url('./assets/images/small/brownie300.jpg');
+     background-size: cover;
+ }
+
+.products-second-content .column-content:nth-child(2) {
+    background: url('./assets/images/small/cupcake300.jpg');
+     background-size: cover;
+}
+
+.products-second-content .column-content:nth-child(3) {
+    background: url('./assets/images/small/macaron300.jpg');       
+    background-size: cover; 
+}
+
+.pricing {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table, th, td {
+    color: white;
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+th, td {
+    width: 60%;
+}
+
+th {
+    background: lightgray;
+    color: darkred;
+}
+
+.order-details {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 30px;
+
+    margin-bottom: 100px;
+}
+
+.order-details form {
+    text-align: left;
+}
+
+.about-us-content {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 30px;
+
+    margin-bottom: 100px;
+}
+
+.about-us-content img {
+    height: 350px;
+    border-radius: 30px;
+}
+
+.about-us-content table, tr, th, td {
+   font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.contact-us-content {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 30px;
+
+    margin-bottom: 100px;
+}
